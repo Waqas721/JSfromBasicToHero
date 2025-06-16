@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Switcher</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            transition:background-color 3s ,color 7s ;
+        }
+        
+        .light-mode{
+            background-color: white;
+            color: black;
+        }
+        .dark-mode{
+            background-color: black;
+            color: white;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <h1>Welcome to Theme Switcher</h1>
+    <button id="togglebtn">Toggle button</button>
+</body>
+<script src="practice_problem1.js"></script>
+</html>
